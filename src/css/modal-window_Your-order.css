@@ -6,14 +6,18 @@
 
     width: 100%;
     height: 100%;
+    background-color: rgba(0, 0, 0, .5);
 
-    opacity: 1;
-    visibility: visible;
+    opacity: 0;
+    visibility: hidden;
 }
 
 /* .is-hidden {} */
 
 .modal-window {
+    opacity: 0;
+    visibility: hidden;
+
     position: relative;
     min-width: 320px;
     width: 335px;
@@ -27,6 +31,7 @@
 
     background-color: #FFFFFF;
     border-radius: 20px;
+    box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
 }
 
 @media only screen and (min-width: 768px) {
@@ -40,6 +45,12 @@
     .modal-window {
         width: 890px;
     }
+}
+
+.modal-window.active,
+.backdrop.active {
+    opacity: 1;
+    visibility: visible;
 }
 
 .title-section {
@@ -521,4 +532,14 @@ input:invalid {
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+.experient {
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: #414b52;
+    margin: 10px;
+    color: #fff;
+    border-radius: 3px;
 }
