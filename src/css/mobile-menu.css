@@ -1,0 +1,94 @@
+.mobile-menu-open-btn {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  border: none;
+  fill: var(--secondary-tx-color);
+  background-color: var(--secondery-bg-color);
+  align-items: center;
+  margin-left: auto;
+  padding: 0;
+  line-height: 0;
+}
+.burger-icon {
+  width: 20px;
+  height: 14px;
+}
+@media screen and (max-width: 767px) {
+  .mobile-menu-container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    visibility: hidden;
+    opacity: 0;
+    background: var(--basic-bg-color);
+    transition: var(--transition-duration-and-func);
+  }
+  .mobile-menu-container.is-open {
+    transform: translateX(0);
+    visibility: visible;
+  }
+  .mobile-logo {
+    display: flex;
+    padding: 16px 20px 16px 20px;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--secondery-bg-color);
+  }
+  .mobile-close-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    right: 0;
+    top: 0;
+    width: 24px;
+    height: 24px;
+    background: var (--secondery-bg-color);
+  }
+  .mobile-close-icon {
+    stroke: var(--secondary-tx-color);
+  }
+  .mobile-list {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 174px;
+    padding-right: 149px;
+    padding-left: 149px;
+  }
+  .mobile-menu-link {
+    color: var(--basic-tx-color);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.3;
+    align-items: center;
+    text-align: center;
+    letter-spacing: -0.04em;
+  }
+  .mobile-menu-item {
+    gap: 16px;
+  }
+  .mobile-shopping-cart-btn {
+    width: 28px;
+    height: 28px;
+    border: none;
+    background: var(--secondery-bg-color);
+  }
+  .mobile-shopping-cart-icon {
+    width: 19px;
+    height: 23px;
+    fill: var(--basic-tx-color);
+  }
+}
+@media screen and (min-width: 768px) {
+  .mobile-menu-container {
+    display: none;
+  }
+}
