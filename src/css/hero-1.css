@@ -1,0 +1,72 @@
+/* Hero styles */
+
+.hero-section {
+  position: relative;
+  padding-bottom: 80px;
+  background-color: #ae1332;
+}
+
+.hero.container {
+  padding-top: 104px;
+  background-image: url(../img/hero-1/bananas-blured.png),
+    url(../img/hero-1/strawberry-blured.png);
+  background-repeat: no-repeat;
+  background-position: left 13px top 116px, right 20px top 56px;
+}
+
+.hero-title {
+  width: 335px;
+  position: absolute;
+  z-index: 100;
+  top: 56px;
+  color: #ffffff;
+  text-align: center;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+.image-wrapper {
+  position: relative;
+}
+
+.hero-btn {
+  cursor: pointer;
+  position: absolute;
+  top: 456px;
+  left: 128px;
+  transform: translateX(-50%);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ae1332;
+  background-color: #ffffff;
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 50%;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  transform: rotate(-14deg);
+}
+
+/* НА ВСЯКИЙ ВИПАДОК */
+/* .image-wrapper {
+  height: 509px;
+  width: 335px;
+  background: linear-gradient(#ae1332, #ae1332) padding-box,
+    linear-gradient(
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.44) 41.13%,
+        rgba(255, 255, 255, 1) 100%
+      )
+      border-box;
+  border: 1px solid transparent;
+  padding: 11px;
+  border-radius: 500px;
+} */
