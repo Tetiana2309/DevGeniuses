@@ -5,7 +5,90 @@
   |============================
 */
 @import url('./reset.css');
-
 @import url('./header.css');
+@import url('./hero-1.css');
+@import url('./hero-2.css');
+@import url('./how-it-works.css');
+@import url('./organic-fruits-gallery.css');
+@import url('./contacts.css');
+@import url('./footer.css');
+@import url('./mobile-menu.css');
+@import url('./modal-window_Your-order.css');
+@import url('./modal-window_Thank-You.css');
 
-:root {}
+@font-face {
+  font-family: 'DM Sans';
+  src: url("/src/fonts/DMSans-Regular.woff2"),
+    url("/src/fonts/DMSans-Regular.woff");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url("/src/fonts/DMSans-Medium.woff2"),
+    url("/src/fonts/DMSans-Medium.woff");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal;
+
+}
+
+@font-face {
+  font-family: 'DM Sans';
+  src: url("/src/fonts/DMSans-Bold.woff2"),
+    url("/src/fonts/DMSans-Bold.woff");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal;
+
+}
+
+
+:root {
+
+  /*Text*/
+  --basic-text-colr: #FFFFFF;
+  --secondary-text-color: #AE1332;
+  --third-text-color: #000000;
+
+  /*Background-color*/
+  --basic-bg-color: #AE1332;
+  --secindery-bg-color: #FFFFFF;
+  --third-bg-color: #000000;
+  --fourth-bg-color: #A4CB66;
+  --five-bg-color: #F5CE13;
+
+  /*Animations*/
+  --transition-duration-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+/* Container styles */
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 375px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    padding-left: 32px;
+    padding-right: 32px;
+    max-width: 768px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
