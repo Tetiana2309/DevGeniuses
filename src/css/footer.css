@@ -77,27 +77,27 @@
 }
 
 .footer-contacts-item {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .footer-contacts-phone-link {
-    font-style: normal;
-    font-weight: 400;
-    line-height: calc(18 / 14);
-    letter-spacing: -0.02em;
-    color: var(--secondary-text-color);
-    display: flex;
-    justify-content: center;
-    margin-bottom: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  color: var(--secondary-text-color);
+  display: flex;
+  justify-content: center;
+  margin-bottom: 14px;
 }
 
 .footer-contacts-map-link {
-    font-style: normal;
-    font-weight: 400;
-    line-height: calc(18 / 14);
-    letter-spacing: -0.02em;
-    color: var(--secondary-text-color);
-    max-width: 140px;
-    text-align: center;
+  font-style: normal;
+  font-weight: 400;
+  line-height: calc(18 / 14);
+  letter-spacing: -0.02em;
+  color: var(--secondary-text-color);
+  max-width: 140px;
+  text-align: center;
 }
