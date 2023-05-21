@@ -78,7 +78,7 @@
     display: block;
   }
 
-  .menu {
+  .page-menu {
     display: flex;
     gap: 16px;
   }
