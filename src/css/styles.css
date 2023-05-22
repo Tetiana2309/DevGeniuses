@@ -18,8 +18,8 @@
 
 @font-face {
   font-family: 'DM Sans';
-  src: url("/src/fonts/DMSans-Regular.woff2"),
-    url("/src/fonts/DMSans-Regular.woff");
+  src: url('/fonts/DMSans-Regular.woff2'),
+    url('/fonts/DMSans-Regular.woff');
   font-weight: 400;
   font-display: swap;
   font-style: normal;
@@ -28,8 +28,9 @@
 
 @font-face {
   font-family: 'DM Sans';
-  src: url("/src/fonts/DMSans-Medium.woff2"),
-    url("/src/fonts/DMSans-Medium.woff");
+  src:
+    url('/fonts/DMSans-Medium.woff2'),
+    url('/fonts/DMSans-Medium.woff');
   font-weight: 500;
   font-display: swap;
   font-style: normal;
@@ -38,14 +39,26 @@
 
 @font-face {
   font-family: 'DM Sans';
-  src: url("/src/fonts/DMSans-Bold.woff2"),
-    url("/src/fonts/DMSans-Bold.woff");
+  src:
+    url('/fonts/DMSans-Bold.woff2'),
+    url('/fonts/DMSans-Bold.woff');
   font-weight: 700;
   font-display: swap;
   font-style: normal;
 
 }
 
+
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  color: var(--basic-text-colr);
+}
+
+main {
+  background-color: var(--basic-bg-color);
+
+}
 
 :root {
 
@@ -65,15 +78,7 @@
   --transition-duration-and-func: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-body {
-  font-family: 'DM Sans', sans-serif;
-  color: var(--basic-text-colr);
-}
 
-main {
-  background-color: var(--basic-bg-color);
-
-}
 
 /* Container styles */
 
