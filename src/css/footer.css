@@ -127,7 +127,7 @@
   }
 
   .footer-social-media-list {
-    justify-content: space-between;
+    justify-content: flex-start;
   }
 
   .footer-social-media-icon {
