@@ -112,10 +112,10 @@
   transition: color var(--transition-duration-and-func);
 }
 
-.footer-contacts-map-link:hover,
+/* .footer-contacts-map-link:hover,
 .footer-contacts-map-link:focus { 
   color: var(--fourth-bg-color);
-}
+} */
 
 /* ========== TABLET ========== */
 
