@@ -85,7 +85,7 @@
   justify-content: center;
 }
 
-/* .footer-contacts-phone-link {
+.footer-contacts-phone-link {
   font-style: normal;
   font-weight: 400;
   line-height: calc(18 / 14);
@@ -115,7 +115,7 @@
 .footer-contacts-map-link:hover,
 .footer-contacts-map-link:focus {
   color: var(--fourth-bg-color);
-} */
+}
 
 /* ========== TABLET ========== */
 
