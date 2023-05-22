@@ -16,7 +16,7 @@
 
     <link href="/src/css/hover.css" rel="stylesheet" />
     <script type="module" crossorigin src="/DevGeniuses/assets/index-ada20a33.js"></script>
-    <link rel="stylesheet" href="/DevGeniuses/assets/index-0211b2d9.css">
+    <link rel="stylesheet" href="/DevGeniuses/assets/index-5f2c4154.css">
   </head>
 
   <body>
@@ -45,6 +45,7 @@
         <use href="/DevGeniuses/assets/icon-719443a6.svg#basket-header"></use>
       </svg>
     </a>
+
     <button class="burger-btn" type="button">
       <svg class="burger-icon" width="20" height="14">
         <use href="/DevGeniuses/assets/icon-719443a6.svg#icon-burger"></use>
@@ -520,50 +521,51 @@
 </footer>
 
     </footer>
-    <button
-  class="mobile-menu-open-btn js-open-menu"
-  type="button"
-  aria-expanded="false"
-  aria-controls="mobile-menu"
->
-  <svg class="burger-icon">
-    <use class="" href="/DevGeniuses/assets/icon-719443a6.svg#icon-burger"></use>
-  </svg>
-</button>
-
-<!-- Mobile menu -->
+    
 <div class="mobile-menu-container js-menu-container">
   <div class="mobile-logo">
     <a class="logo link" href="./index.html">
-      <svg class="logo-icon" width="16" height="16">
-        <use href="/DevGeniuses/assets/icon-719443a6.svg#logo-header"></use>
+      <svg class="logo-icon">
+        <use href=".src/img/icon.svg#icon-header"></use>
       </svg>
       <span class="logo-text"> fresh harvest box </span>
     </a>
     <button class="mobile-close-btn js-close-menu">
       <svg class="mobile-close-icon">
-        <use class="mobile-close" href="/DevGeniuses/assets/icon-719443a6.svg#icon-clos"></use>
+        <use href=".src/img/icon.svg#icon-clos"></use>
       </svg>
     </button>
   </div>
   <div class="mobile-list">
     <ul class="mobile-menu list">
       <li class="mobile-menu-item">
-        <a class="mobile-menu-link link" href="./#how-it-works">How it works</a>
-      </li>
-      <li class="mobile-menu-item">
-        <a class="mobile-menu-link link" href="./#fruits"> Fruits </a>
-      </li>
-      <li class="mobile-menu-item">
-        <a class="mobile-menu-link link" href="./#contacts"> Contacts </a>
-      </li>
+        <a class="mobile-menu-link link"
+                href="./index.html">How it works</a>
+            </li>
+             <li class="mobile-menu-item">
+        <a class="mobile-menu-link link" href=""> Fruits </a>
+             </li>
+             </li>
+             <li class="mobile-menu-item">
+        <a class="mobile-menu-link link" href=""> Contacts </a>
+             </li>
     </ul>
     <button type="button" class="mobile-shopping-cart-btn">
       <svg class="mobile-shopping-cart-icon">
-        <use href="/DevGeniuses/assets/icon-719443a6.svg#basket-header"></use>
+        <use href=".src/img/icon.svg#basket-header"> </use>
       </svg>
     </button>
   </div>
+  </div>
+  <button class="mobile-menu-open-btn js-open-menu"
+          type="button"
+          aria-expanded="false"
+          aria-controls="mobile-menu">
+          <svg class="burger-icon">
+            <use class="" href="./images/icon.svg#icon-burger"> </use>
+          </svg>
+        </button>
+</div>
 </div>
 
     <div class="modal-window modal" data-modal="1">
@@ -674,7 +676,34 @@
 </div>
 <div class="backdrop js-overlay-modal"></div>
 </div>
-    
+    <div class="backdrop_modal_window" data-modal>
+  <div class="modal_window">
+    <button class="modal_close-btn">
+      <svg class="modal_close-icon" width="28" height="28">
+        <use class="" href="/DevGeniuses/assets/icon-719443a6.svg#icon-clos"></use>
+      </svg>
+    </button>
+
+    <img
+      class="modal_image"
+      srcset="/DevGeniuses/assets/strawberry-19dcb9dd.png 1x, /DevGeniuses/assets/strawberry@2x-7d62c4a8.png 2x"
+      scr="./img/thank-you-pop-up/strawberry.png"
+      alt="Strawberry"
+      width="278"
+      height="239"
+    />
+    <div class="modal_text">
+      <h2 class="modal_title">THANK YOU</h2>
+      <p class="modal_subtitle">
+        Thank you for your order! Our team is preparing your box with fresh,
+        delicious fruits and vegetables, and we'll deliver it straight to your
+        doorstep. We appreciate your business and look forward to providing you
+        with the best possible experience!
+      </p>
+    </div>
+  </div>
+</div>
+
 
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
