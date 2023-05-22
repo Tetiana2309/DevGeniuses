@@ -113,7 +113,7 @@
 }
 
 .footer-contacts-map-link:hover,
-.footer-contacts-map-link:focus {
+.footer-contacts-map-link:focus { 
   color: var(--fourth-bg-color);
 }
 
