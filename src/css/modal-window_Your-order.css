@@ -17,10 +17,8 @@
     opacity: 0;
     visibility: hidden;
 
-    position: relative;
     min-width: 320px;
     width: 335px;
-    padding: 20px;
     overflow-y: auto;
 
     position: absolute;
@@ -36,7 +34,6 @@
 
 @media only screen and (min-width: 768px) {
     .modal-window {
-        padding: 40px;
         width: 704px;
     }
 }
@@ -60,7 +57,9 @@
 }
 
 .order-title {
-    margin-bottom: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
 
     font-weight: 500;
     font-size: 28px;
@@ -73,6 +72,9 @@
 
 @media only screen and (min-width: 768px) {
     .order-title {
+        margin-top: 40px;
+        margin-left: 40px;
+        margin-bottom: 0;
         font-size: 40px;
         line-height: 1.1;
     }
@@ -115,6 +117,16 @@
     .close {
         width: 28px;
         height: 28px;
+    }
+}
+
+.modal-form {
+    padding: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+    .modal-form {
+        padding: 40px;
     }
 }
 
