@@ -93,6 +93,12 @@
   display: flex;
   justify-content: center;
   margin-bottom: 14px;
+  transition: color var(--transition-duration-and-func);
+}
+
+.footer-contacts-phone-link:hover,
+.footer-contacts-phone-link:focus {
+  color: var(--fourth-bg-color);
 }
 
 .footer-contacts-map-link {
@@ -103,6 +109,12 @@
   color: var(--secondary-text-color);
   max-width: 140px;
   text-align: center;
+  transition: color var(--transition-duration-and-func);
+}
+
+.footer-contacts-map-link:hover,
+.footer-contacts-map-link:focus {
+  color: var(--fourth-bg-color);
 }
 
 /* ========== TABLET ========== */
