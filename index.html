@@ -21,12 +21,12 @@
 
     
   <script type="module" crossorigin src="/DevGeniuses/assets/index-9ed675f2.js"></script>
-  <link rel="stylesheet" href="/DevGeniuses/assets/index-c90ad193.css">
+  <link rel="stylesheet" href="/DevGeniuses/assets/index-1705ff9a.css">
 
   <body>
     <header>
-      <header class="page-header">
-  <div class="container header-container">
+      <header class="page-header container">
+  <div class="header-container">
     <nav class="page-nav">
       <ul class="menu list">
         <li class="menu-item">
@@ -472,7 +472,9 @@
         autocomplete="none"
         minlength="3"
       />
-      <button class="send-button" type="submit">Send</button>
+      <button class="send-button js-open-modal" type="submit" data modal="2">
+        Send
+      </button>
     </form>
   </div>
 </section>
@@ -749,9 +751,9 @@
 </div>
 
 
-    <div class="modal_window window modal-thank-you">
-  <div class="modal_window_content modal-thank-you">
-    <button class="modal_close-btn close-btn" type="button">
+    <div class="modal_window window modal-thank-you backdrop js-overlay-modal">
+  <div class="modal_window_content modal-thank-you" data-modal="2">
+    <button class="modal_close-btn close-btn js-modal-close" type="button">
       <svg class="modal_close-icon" width="28" height="28">
         <use class="" href="/DevGeniuses/assets/icon-7f8b9abf.svg#icon-clos"></use>
       </svg>
