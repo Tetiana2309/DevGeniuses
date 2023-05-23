@@ -24,7 +24,7 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    transform: scale(1) translate(-50%, -50%);
+    transform: scale(1) translate(-50%, 600%);
 
     background-color: #FFFFFF;
     border-radius: 20px;
@@ -32,15 +32,17 @@
     z-index: 100;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 767px) {
     .modal-window {
         width: 704px;
+        transform: scale(1) translate(-50%, 500%);
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .modal-window {
         width: 890px;
+        transform: scale(1) translate(-50%, 3300%);
     }
 }
 
@@ -406,7 +408,7 @@ input:invalid {
     background-color: #EDD251;
 }
 
-@media only screen and (min-width: 0px) and (max-width: 768px) {
+@media only screen and (min-width: 0px) and (max-width: 767px) {
     .background-img {
         display: none;
     }
