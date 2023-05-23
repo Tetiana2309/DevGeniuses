@@ -1,4 +1,17 @@
 /* HERO 2 */
+.hero.container {
+  padding-bottom: 80px;
+}
+@media only screen and (min-width: 768px) {
+  .hero.container {
+    padding-bottom: 137px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .hero.container {
+    padding-bottom: 0;
+  }
+}
 
 @media only screen and (min-width: 768px) {
   .container-box-wrapper {
@@ -19,6 +32,7 @@
   .container-box-right {
     display: flex;
     flex-direction: column-reverse;
+    justify-content: flex-end;
     row-gap: 44px;
   }
 }
@@ -73,6 +87,7 @@
 @media screen and (min-width: 768px) {
   .box-green {
     margin-left: 32px;
+    margin-bottom: 0;
   }
 }
 @media screen and (min-width: 1280px) {
@@ -126,6 +141,7 @@
 @media screen and (min-width: 768px) {
   .hashtags-list {
     justify-content: flex-end;
+    margin-bottom: 0;
   }
   .box-yelow {
     margin-left: 0;
