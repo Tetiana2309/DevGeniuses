@@ -20,8 +20,8 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
     
-  <script type="module" crossorigin src="/DevGeniuses/assets/index-201425be.js"></script>
-  <link rel="stylesheet" href="/DevGeniuses/assets/index-679c92a3.css">
+  <script type="module" crossorigin src="/DevGeniuses/assets/index-9ed675f2.js"></script>
+  <link rel="stylesheet" href="/DevGeniuses/assets/index-f11189bf.css">
 
   <body>
     <header>
@@ -406,56 +406,75 @@
 </section>
 
       
-          <!-- Fresh harvest box $ input -->
+      <!-- Fresh harvest box $ input -->
 <section class="fresh-harvest-section">
+  <div class="fresh-harvest-box">
+    <h1 class="harvest-box-title">Fresh Harvest Box has got you covered</h1>
+    <div class="harvest-img-box">
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="/DevGeniuses/assets/fruit@1-da7b4709.jpg 1x, /DevGeniuses/assets/fruit@2-0191219f.jpg 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/DevGeniuses/assets/tab-fruit@1-468073df.jpg 1x, /DevGeniuses/assets/tab-fruit@2-b81402e5.jpg 2x"
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="/DevGeniuses/assets/mob@1x-a5b40a33.jpg 1x, /DevGeniuses/assets/mobile@2x-4c7037e0.jpg 2x"
+        />
 
-    <div class="fresh-harvest-box">
-        <h1 class="harvest-box-title">
-            Fresh Harvest Box has got you covered
-        </h1>
-        <div class="harvest-img-box">
-            <picture>
-                <source media="(min-width: 1280px)"
-                srcset="/DevGeniuses/assets/fruit@1-da7b4709.jpg 1x, /DevGeniuses/assets/fruit@2-0191219f.jpg 2x"/>
-                <source media="(min-width: 768px)"
-                srcset="/DevGeniuses/assets/tab-fruit@1-468073df.jpg 1x, /DevGeniuses/assets/tab-fruit@2-b81402e5.jpg 2x"/>
-                <source media="(max-width: 767px)"
-                srcset="/DevGeniuses/assets/mob@1x-a5b40a33.jpg 1x, /DevGeniuses/assets/mobile@2x-4c7037e0.jpg 2x"/>
+        <img
+          class="fruit-img"
+          loading="lazy"
+          src="/DevGeniuses/assets/fruit@1-da7b4709.jpg"
+          alt="Fruit"
+          width="792"
+          height="502"
+        />
+      </picture>
 
-                <img
-                class="fruit-img"
-                loading="lazy"
-                src="/DevGeniuses/assets/fruit@1-da7b4709.jpg"
-                alt="Fruit"
-                width="792"
-                height="502">
-            </picture>
- 
-            <picture>
-                <source media="(min-width: 1280px)"
-                srcset="/DevGeniuses/assets/berries@1-7bcd73b2.jpg 1x, /DevGeniuses/assets/berries@2-7cf88dec.jpg 2x" />
-                <source media="(min-width: 768px)"
-                srcset="/DevGeniuses/assets/tab-berries@1-93e9968b.jpg 1x, /DevGeniuses/assets/tab-berries@2-f4cf5843.jpg 2x" />
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="/DevGeniuses/assets/berries@1-7bcd73b2.jpg 1x, /DevGeniuses/assets/berries@2-7cf88dec.jpg 2x"
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="/DevGeniuses/assets/tab-berries@1-93e9968b.jpg 1x, /DevGeniuses/assets/tab-berries@2-f4cf5843.jpg 2x"
+        />
 
-                <img
-                class="berries-img"
-                loading="lazy"
-                src="/DevGeniuses/assets/berries@1-7bcd73b2.jpg"
-                alt="Berries"
-                width="400"
-                height="502">
-            </picture>
-        </div>
+        <img
+          class="berries-img"
+          loading="lazy"
+          src="/DevGeniuses/assets/berries@1-7bcd73b2.jpg"
+          alt="Berries"
+          width="400"
+          height="502"
+        />
+      </picture>
     </div>
-    <div class="send-input-box">
-        <p class="send-input-title">Our boxes are packed with delicious, nutritious fruits and vegetables,
-            perfect for anyone looking to eat healthier or
-            support local farmers. Order your box today and start enjoying the best that nature has to offer!</p>
-        <form class="input-box">
-            <input class="send-input" type="email" name="email" placeholder="Enter email..." required autocomplete="none" minlength="3">
-            <a href="partials/modal-window_Thank-You.html"><button class="send-button" type="submit" id="email" data-toggle="modal" data-target="./partials/modal-window_Thank-You.html">Send</button></a>
-        </form>
-    </div>
+  </div>
+  <div class="send-input-box">
+    <p class="send-input-title">
+      Our boxes are packed with delicious, nutritious fruits and vegetables,
+      perfect for anyone looking to eat healthier or support local farmers.
+      Order your box today and start enjoying the best that nature has to offer!
+    </p>
+    <form class="input-box thank-form">
+      <input
+        class="send-input feedback-email"
+        type="email"
+        name="email"
+        placeholder="Enter email..."
+        required
+        autocomplete="none"
+        minlength="3"
+      />
+      <button class="send-button" type="submit">Send</button>
+    </form>
+  </div>
 </section>
 
     </main>
@@ -730,58 +749,58 @@
 </div>
 
 
-    <div class="modal_window window" data-modal="2">
-  <div class="modal_window_content">
-    <button class="modal_close-btn js-modal-close" type="button">
-      <svg class="modal_close-icon" width="28" height="28">
-        <use class="" href="/DevGeniuses/assets/icon-7f8b9abf.svg#icon-clos"></use>
-      </svg>
-    </button>
+    <!-- <div class="modal_window window modal-thank-you"> -->
+<div class="modal_window_content modal-thank-you">
+  <button class="modal_close-btn close-btn" type="button">
+    <svg class="modal_close-icon" width="28" height="28">
+      <use class="" href="/DevGeniuses/assets/icon-7f8b9abf.svg#icon-clos"></use>
+    </svg>
+  </button>
 
-    <picture class="modal_image">
-      <sourse
-        srcset="
+  <picture class="modal_image">
+    <sourse
+      srcset="
         ./img/thank-you-pop-up/strawberry.png    1x,
         ./img/thank-you-pop-up/strawberry@2x.png 2x
       "
-        media="(min-width:1280px)"
-        sizes="(width: 278px) 278px, 100vw"
-      />
+      media="(min-width:1280px)"
+      sizes="(width: 278px) 278px, 100vw"
+    />
 
-      <sourse
-        srcset="
+    <sourse
+      srcset="
       ./img/thank-you-pop-up/strawberry.png    1x,
       ./img/thank-you-pop-up/strawberry@2x.png 2x
       "
-        media="(min-width:768px)"
-        sizes="(width: 278px) 278px, 100vw"
-      />"
+      media="(min-width:768px)"
+      sizes="(width: 278px) 278px, 100vw"
+    />"
 
-      <sourse
-        srcset="
+    <sourse
+      srcset="
       ./img/thank-you-pop-up/strawberry1.png    1x,
       ./img/thank-you-pop-up/strawberry1@2x.png 2x
       "
-        media="(min-width:375px)"
-        sizes="(width: 207px) 207px, 100vw"
-      />"
-      <img src="/DevGeniuses/assets/strawberry-19dcb9dd.png" alt="Strawberry" />
-    </picture>
+      media="(min-width:375px)"
+      sizes="(width: 207px) 207px, 100vw"
+    />"
+    <img src="/DevGeniuses/assets/strawberry-19dcb9dd.png" alt="Strawberry" />
+  </picture>
 
-    <div class="modal_text">
-      <h2 class="modal_title">THANK YOU</h2>
-      <p class="modal_subtitle">
-        Thank you for your order! Our team is preparing your box with fresh,
-        delicious fruits and vegetables, and we'll deliver it straight to your
-        doorstep. We appreciate your business and look forward to providing you
-        with the best possible experience!
-      </p>
-    </div>
+  <div class="modal_text">
+    <h2 class="modal_title">THANK YOU</h2>
+    <p class="modal_subtitle">
+      Thank you for your order! Our team is preparing your box with fresh,
+      delicious fruits and vegetables, and we'll deliver it straight to your
+      doorstep. We appreciate your business and look forward to providing you
+      with the best possible experience!
+    </p>
   </div>
 </div>
+<!-- </div> -->
 
 
-    <div class="backdrop js-overlay-modal"></div>
+    <div class="backdrop js-overlay-modal overlay"></div>
     
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
