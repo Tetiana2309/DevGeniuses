@@ -106,7 +106,11 @@
     display: none;
   }
 
-  .mobile_menu {
+  .mobile-menu {
+    display: none;
+  }
+
+  .header-mobile-menu {
     display: none;
   }
 }
