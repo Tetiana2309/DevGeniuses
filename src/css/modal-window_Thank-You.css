@@ -1,18 +1,3 @@
-:root {
-    /*Text*/
-    --basic-text-colr: #ffffff;
-    --secondary-text-color: #ae1332;
-    --third-text-color: #000000;
-
-    /*Background-color*/
-    --basic-bg-color: #ae1332;
-    --secindery-bg-color: #ffffff;
-    --third-bg-color: #000000;
-    --fourth-bg-color: #a4cb66;
-    --five-bg-color: #f5ce13;
-
-}
-
 .backdrop {
     position: fixed;
     top: 0;
