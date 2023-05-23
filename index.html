@@ -21,7 +21,7 @@
 
     
   <script type="module" crossorigin src="/DevGeniuses/assets/index-201425be.js"></script>
-  <link rel="stylesheet" href="/DevGeniuses/assets/index-890b5375.css">
+  <link rel="stylesheet" href="/DevGeniuses/assets/index-679c92a3.css">
 
   <body>
     <header>
@@ -62,19 +62,32 @@
     <main>
       <section class="hero-section">
         <div class=" hero container"> 
-      <!-- Hero section -->
-<section class="hero-section">
-  <div class="hero container">
-    <h1 class="hero-title">
-      fresh harvest box is your one-stop place for a delicious fruit basket
-    </h1>
-    <div class="image-wrapper">
-      <img src="/DevGeniuses/assets/woman-33cbb2c4.png" alt="smiling girl" class="hero-woman" />
-
-      <button type="button" class="hero-btn">shop now</button>
-    </div>
-  </div>
-</section>
+      <!-- Hero-1 -->
+<h1 class="hero-title">
+  fresh harvest box <br />
+  is your one-stop place for a delicious fruit basket
+</h1>
+<div class="image-wrapper">
+  <picture>
+    <!-- Tablet + Desktop screen -->
+    <source
+      media="(min-width: 768px)"
+      srcset="
+        ../img/hero-1/woman@tab1x.png 1x,
+        ../img/hero-1/woman@tab2x.png 2x
+      "
+      type="image/png"
+    />
+    <!-- Phone screen -->
+    <source
+      media="(max-width: 767px)"
+      srcset="../img/hero-1/woman.png 1x, ../img/hero-1/woman@mob2x.png 2x"
+      type="image/png"
+    />
+    <img src="../img/hero-1/woman.png" alt="smiling girl" class="hero-woman" />
+  </picture>
+  <button type="button" class="hero-btn">shop now</button>
+</div>
 
       <!-- Hero-2 -->
 
