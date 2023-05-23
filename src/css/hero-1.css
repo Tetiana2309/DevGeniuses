@@ -1,0 +1,120 @@
+/* Hero 1 */
+.hero.container {
+  padding-top: 104px;
+  position: relative;
+  background-image: url(../img/hero-1/bananas-blured-mob.png),
+    url(../img/hero-1/str-blured-mob.png);
+  background-repeat: no-repeat;
+  background-position: left 9px top 116px, right 13px top 56px;
+}
+
+@media only screen and (min-width: 768px) {
+  .hero.container {
+    padding-top: 102px;
+    background-image: url(../img/hero-1/bananas-blured.png),
+      url(../img/hero-1/str-blured.png);
+    background-position: left 9px top 169px, right 13px top 56px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero.container {
+    padding-top: 122px;
+    background-image: url(../img/hero-1/bananas-blured@desk.png),
+      url(../img/hero-1/str-blured@desk.png);
+    background-position: left 181px top 191px, right 191px top 39px;
+  }
+}
+
+.hero-title {
+  width: 335px;
+  position: absolute;
+  z-index: 100;
+  top: 56px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-title {
+    top: 64px;
+    width: 704px;
+    font-size: 50px;
+    line-height: 1.08;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .hero-title {
+    width: 898px;
+    font-size: 64px;
+    line-height: 1;
+  }
+}
+
+.image-wrapper {
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 335px;
+  height: 509px;
+  margin-bottom: 71px;
+}
+
+@media only screen and (min-width: 768px) {
+  .image-wrapper {
+    width: 486px;
+    height: 742px;
+    margin-bottom: 59px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .image-wrapper {
+    margin-bottom: 273px;
+  }
+}
+
+.hero-btn {
+  cursor: pointer;
+  position: absolute;
+  left: 128px;
+  top: 456px;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ae1332;
+  background-color: #ffffff;
+  width: 80px;
+  height: 80px;
+  border: none;
+  border-radius: 50%;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  transform: rotate(-14deg);
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-btn {
+    left: 186px;
+    top: 643px;
+    font-size: 28px;
+    line-height: 1;
+    width: 114px;
+    height: 114px;
+  }
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+  color: #a4cb66;
+}

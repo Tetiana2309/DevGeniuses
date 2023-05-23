@@ -1,0 +1,285 @@
+section {
+  background-color: #ae1332;
+}
+.container {
+  min-width: 335px;
+  max-width: 375px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+
+.title-container-fruits {
+}
+.title-organic-fruits {
+  text-align: center;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 1;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  margin-bottom: 14px;
+  /* transform: rotate(45deg); */
+}
+
+@media only screen and (min-width: 780px) {
+  .title-organic-fruits {
+    font-size: 40px;
+    line-height: 1.1;
+  }
+}
+.subtitle-organic-fruits {
+  display: block;
+  text-align: center;
+  max-width: 335px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 44px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+}
+
+@media only screen and (min-width: 780px) {
+  .subtitle-organic-fruits {
+    max-width: 547px;
+  }
+}
+
+.list-organic-fruits {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  margin-bottom: 44px;
+}
+
+@media only screen and (min-width: 768px) {
+  .list-organic-fruits {
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .list-organic-fruits {
+    gap: 24px;
+  }
+}
+
+.item-organic-fruits {
+  color: white;
+  background-color: #f8766b;
+  width: 335px;
+  border-radius: 20px;
+  background-image: url(../img/organic-fruits/oval-@1x.png);
+  background-repeat: no-repeat;
+  background-position: 50% 85%;
+}
+@media only screen and (min-width: 780px) {
+  .item-organic-fruits {
+    width: 344px;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .item-organic-fruits {
+    width: 389px;
+  }
+}
+
+.color-card-fruits-2 {
+  background-color: #edd251;
+}
+.color-card-fruits-3 {
+  background-color: #9dc262;
+}
+.color-card-fruits-4 {
+  background-color: #bfd663;
+}
+.color-card-fruits-5 {
+  background-color: #e93f29;
+}
+.color-card-fruits-6 {
+  background-color: #db4f4b;
+}
+.color-card-fruits-7 {
+  display: none;
+  background-color: #9b5366;
+}
+
+@media only screen and (min-width: 780px) {
+  .color-card-fruits-7 {
+    display: block;
+  }
+}
+.color-card-fruits-8 {
+  display: none;
+  background-color: #f47f4c;
+}
+
+@media only screen and (min-width: 780px) {
+  .color-card-fruits-8 {
+    display: block;
+  }
+}
+.color-card-fruits-9 {
+  display: none;
+  background-color: #98b37e;
+}
+@media only screen and (min-width: 1280px) {
+  .color-card-fruits-9 {
+    display: block;
+  }
+}
+
+.text-container-fruits {
+  padding: 64px 24px 0px 24px;
+}
+.name-fruits {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.17;
+  letter-spacing: -0.04em;
+  margin-bottom: 8px;
+}
+
+@media only screen and (min-width: 780px) {
+  .name-fruits {
+    font-size: 32px;
+    line-height: 1.19;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .name-fruits {
+  }
+}
+
+.class-fruits {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.02em;
+  margin-bottom: 4px;
+}
+
+@media only screen and (min-width: 780px) {
+  .class-fruits {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .class-fruits {
+  }
+}
+
+.container-image-fruits {
+}
+
+.image-fruits {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 26px;
+}
+
+@media only screen and (min-width: 780px) {
+  .image-fruits {
+    margin-bottom: 6px;
+  }
+}
+
+.price-container-fruits {
+  padding: 0px 24px 24px;
+}
+.price-fruits {
+  display: inline-block;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.29;
+  letter-spacing: -0.04em;
+  padding: 12px 24px;
+  color: #ae1332;
+  background-color: white;
+  border-radius: 200px;
+  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media only screen and (min-width: 780px) {
+  .price-fruits {
+    font-size: 18px;
+    line-height: 1.33;
+  }
+}
+
+.price-fruits:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
+.btn-fruits {
+  display: flex;
+  justify-content: center;
+}
+
+.order-btn-fruits {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 114px;
+  height: 114px;
+  border: none;
+  background: #9dc262;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  transform: rotate(-14deg);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  gap: 4px;
+}
+
+.icon-fruits-btn {
+  fill: currentColor;
+}
+
+.order-btn-fruits:hover,
+.order-btn-fruits:focus {
+  background-color: #fff;
+  color: #9dc262;
+}
