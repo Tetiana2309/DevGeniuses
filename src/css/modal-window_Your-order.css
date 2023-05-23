@@ -21,7 +21,7 @@
     width: 335px;
     overflow-y: auto;
 
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: scale(1) translate(-50%, -50%);
