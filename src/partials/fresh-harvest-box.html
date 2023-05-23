@@ -1,0 +1,85 @@
+<!-- Fresh harvest box $ input -->
+<section class="fresh-harvest-section">
+  <div class="fresh-harvest-box">
+    <h1 class="harvest-box-title">Fresh Harvest Box has got you covered</h1>
+    <div class="harvest-img-box">
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/fresh-harvest-box/fruit@1.jpg 1x,
+            ./img/fresh-harvest-box/fruit@2.jpg 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/fresh-harvest-box/tab-fruit@1.jpg 1x,
+            ./img/fresh-harvest-box/tab-fruit@2.jpg 2x
+          "
+        />
+        <source
+          media="(max-width: 767px)"
+          srcset="
+            ./img/fresh-harvest-box/mob@1x.jpg    1x,
+            ./img/fresh-harvest-box/mobile@2x.jpg 2x
+          "
+        />
+
+        <img
+          class="fruit-img"
+          loading="lazy"
+          src="./img/fresh-harvest-box/fruit@1.jpg"
+          alt="Fruit"
+          width="792"
+          height="502"
+        />
+      </picture>
+
+      <picture>
+        <source
+          media="(min-width: 1280px)"
+          srcset="
+            ./img/fresh-harvest-box/berries@1.jpg 1x,
+            ./img/fresh-harvest-box/berries@2.jpg 2x
+          "
+        />
+        <source
+          media="(min-width: 768px)"
+          srcset="
+            ./img/fresh-harvest-box/tab-berries@1.jpg 1x,
+            ./img/fresh-harvest-box/tab-berries@2.jpg 2x
+          "
+        />
+
+        <img
+          class="berries-img"
+          loading="lazy"
+          src="./img/fresh-harvest-box/berries@1.jpg"
+          alt="Berries"
+          width="400"
+          height="502"
+        />
+      </picture>
+    </div>
+  </div>
+  <div class="send-input-box">
+    <p class="send-input-title">
+      Our boxes are packed with delicious, nutritious fruits and vegetables,
+      perfect for anyone looking to eat healthier or support local farmers.
+      Order your box today and start enjoying the best that nature has to offer!
+    </p>
+    <form class="input-box thank-form">
+      <input
+        class="send-input feedback-email"
+        type="email"
+        name="email"
+        placeholder="Enter email..."
+        required
+        autocomplete="none"
+        minlength="3"
+      />
+      <button class="send-button" type="submit">Send</button>
+    </form>
+  </div>
+</section>

@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fresh Harvest Box</title>
 
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,400;1,500;1,700&display=swap"
-      rel="stylesheet"
-    />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+
 
     <link
       rel="stylesheet"
@@ -20,21 +19,31 @@
 
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
 
-    <link href="/src/css/hover.css" rel="stylesheet" />
-  </head>
-
+    
   <body>
-    <load src="partials/header.html" />
-    <load src="partials/hero-1.html" />
-    <load src="partials/hero-2.html" />
-    <load src="partials/how-it-works.html" />
-    <load src="partials/organic-fruits-gallery.html" />
-    <load src="partials/contacts.html" />
-    <load src="partials/footer.html" />
-    <load src="partials/mobile-menu.html" />
+    <header>
+      <load src="partials/header.html" />
+    </header>
+    <main>
+      <section class="hero-section">
+        <div class=" hero container"> 
+      <load src="partials/hero-1.html" />
+      <load src="partials/hero-2.html" />
+        </div>
+      </section>
+      <load src="partials/how-it-works.html" />
+      <load src="partials/organic-fruits-gallery.html" />
+      <load src="partials/contacts.html" />
+      <load src="partials/fresh-harvest-box.html"/>
+    </main>
+    <footer>
+      <load src="partials/footer.html" />
+    </footer>
+    <load src="partials/mobile-menu.html"/>
     <load src="partials/modal-window_Your-order.html" />
     <load src="partials/modal-window_Thank-You.html" />
 
+    <div class="backdrop js-overlay-modal overlay"></div>
     <script type="module" src="/main.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
