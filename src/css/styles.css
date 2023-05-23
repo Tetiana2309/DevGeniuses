@@ -6,6 +6,7 @@
 */
 @import url('./reset.css');
 @import url('./header.css');
+
 @import url('./hero-1.css');
 @import url('./hero-2.css');
 @import url('./how-it-works.css');
@@ -49,14 +50,16 @@ main {
 }
 
 /* Container styles */
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
-  max-width: 375px;
-  padding-left: 20px;
-  padding-right: 20px;
+@media only screen and (min-width: 375px) {
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 375px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
 }
+
 
 @media only screen and (min-width: 768px) {
   .container {
