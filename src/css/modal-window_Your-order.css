@@ -19,17 +19,21 @@
     position: fixed;
     min-width: 320px;
     width: 335px;
-    overflow-x: auto;
+    overflow-y: auto;
     top: 50%;
     left: 50%;
     transform: scale(1) translate(-50%, -50%);
-
-    background-color: #FFFFFF;
+    background-color: #fff;
     border-radius: 20px;
-    box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
+    box-shadow: 0 3px 10px -.5px #0003;
     z-index: 100;
-    max-width: 1000px;
+    max-height: 1000px;
+    height: 100%;
+}
 
+.modal-form {
+    padding: 40px;
+    position: relative;
 }
 
 @media only screen and (min-width: 767px) {
