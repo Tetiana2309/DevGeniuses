@@ -40,6 +40,7 @@
   letter-spacing: -0.04em;
   text-transform: uppercase;
   text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
+  animation: slide-in-anim 3000ms ease-out forwards;
 }
 
 @media only screen and (min-width: 768px) {
@@ -56,6 +57,24 @@
     width: 898px;
     font-size: 64px;
     line-height: 1;
+  }
+}
+
+/* Animations */
+
+@keyframes slide-in-anim {
+  20% {
+    opacity: 0;
+  }
+  60% {
+    transform: translateX(-45%);
+  }
+  75% {
+    transform: translateX(-52%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%);
   }
 }
 
@@ -78,7 +97,7 @@
 
 @media only screen and (min-width: 1280px) {
   .image-wrapper {
-    margin-bottom: 273px;
+    margin-bottom: 253px;
   }
 }
 
@@ -111,10 +130,12 @@
     line-height: 1;
     width: 114px;
     height: 114px;
+    transition-property: color;
   }
 }
 
 .hero-btn:hover,
 .hero-btn:focus {
   color: #a4cb66;
+  transition: color var(transition-duration-and-func);
 }
