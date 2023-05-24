@@ -1,6 +1,7 @@
 .backdrop {
     opacity: 0;
     visibility: hidden;
+
     position: fixed;
     top: 0;
     left: 0;
@@ -9,13 +10,19 @@
     background-color: rgba(0, 0, 0, 0.5);
     z-index: 20;
     transition: 0.3s all;
+
+
+
 }
+
+
 
 .modal_window_content.active,
 .backdrop.active {
     opacity: 1;
     visibility: visible;
 }
+
 
 .modal_window_content {
     opacity: 0;
@@ -25,26 +32,38 @@
     left: 50%;
     transform: translate(-50%, -50%);
     z-index: 30;
-    background: #E03F5E;
+    background: #e03f5e;
     border-radius: 20px;
     transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
     padding: 68px 104px 80px 104px;
+
+
 }
 
-@media only screen and (max-width: 375px) {
+.modal_image {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
     .modal_window_content {
-        width: 335px;
-        padding: 40px 20px;
+        width: 600px;
+
     }
 }
 
-.modal-window-content.active,
-.backdrop.active {
-    opacity: 1;
-    visibility: visible;
-}
 
-.modal-close-btn {
+
+
+.modal_close-btn {
     position: absolute;
     top: 20px;
     right: 20px;
@@ -58,61 +77,54 @@
     border: none;
 }
 
-.modal-close-btn:hover,
-.modal-close-btn:focus {
-    counter-reset: green;
-}
-
 .modal_close-icon {
-    fill: var(--basic-text-colr);
+    stroke: var(--basic-text-colr);
 }
 
-.modal-image {
-    /* display: block;
-  margin-left: auto;
-  margin-right: auto; */
-    margin-bottom: 28px;
+.thank-you-img {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
 }
 
-.modal-text {}
+.modal_text {}
 
-.modal-title {
+.modal_title {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 500;
+    font-size: 28px;
+    line-height: 1;
     text-align: center;
+    margin-top: 28px;
     margin-bottom: 14px;
-    font-size: 40px;
-    line-height: 1.1;
+
     text-transform: uppercase;
     color: var(--basic-text-colr);
     text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (max-width: 375px) {
-    .modal-title {
-        font-size: 28px;
-        line-height: 1;
+@media only screen and (min-width: 768px) {
+    .modal_title {
+        font-size: 40px;
+        line-height: 1.1;
     }
 }
 
-.modal-subtitle {
+.modal_subtitle {
     font-family: 'DM Sans';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.2;
-    display: flex;
-    align-items: center;
     text-align: center;
     letter-spacing: -0.04em;
     color: var(--basic-text-colr);
     text-shadow: 0px 4px 70px rgba(0, 0, 0, 0.1);
 }
 
-@media only screen and (min-width: 375px) {
-    .modal-subtitle {
-        font-size: 14px;
+@media only screen and (min-width: 768px) {
+    .modal_subtitle {
         line-height: 1.29;
     }
 }
