@@ -16,7 +16,7 @@
 .modal-window {
     opacity: 0;
     visibility: hidden;
-    position: absolute;
+    position: fixed;
     min-width: 320px;
     width: 335px;
     overflow-x: auto;
@@ -28,19 +28,20 @@
     border-radius: 20px;
     box-shadow: 0 3px 10px -.5px rgba(0, 0, 0, .2);
     z-index: 100;
+    max-width: 1000px;
 
 }
 
 @media only screen and (min-width: 767px) {
     .modal-window {
         width: 704px;
-        transform: scale(1) translate(-50%, 330%);
+        transform: scale(1) translate(-50%, -50%);
     }
 }
 
 @media only screen and (min-width: 1280px) {
     .modal-window {
-        transform: scale(1) translate(-50%, 500%);
+        transform: scale(1) translate(-50%, -50%);
         width: 890px;
 
     }
