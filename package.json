@@ -1,11 +1,11 @@
 {
-  "name": "DevGeniuses",
+  "name": "1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/DevGeniuses/",
+    "build": "vite build --base=/DevGeniuses1/",
     "preview": "vite preview"
   },
   "devDependencies": {
